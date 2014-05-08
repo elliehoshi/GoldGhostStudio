@@ -1,0 +1,25 @@
+html, body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*-----------------------------------------
+Home
+-----------------------------------------*/
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../GoldGhostWebsite/img/desert.jpg);
+  -webkit-background-size: 100vw 100vh;
+   -moz-background-size: 100vw 100vh;
+     -o-background-size: 100vw 100vh;
+        background-size: 100vw 100vh;
+  margin-top: -2%;
+  cursor: default;
+}
+
+#goldGhostTitle {
+  padding-top: 15%;
+  font-size: 6em;
+  color: white;
+}
