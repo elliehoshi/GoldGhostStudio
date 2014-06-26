@@ -1,6 +1,14 @@
+
 html, body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
+}
+
+/*-----------------------------------------
+Nav
+-----------------------------------------*/
+.navbar-inverse {
+  background-color: rgba(18,4,23,1) !important;
 }
 
 /*-----------------------------------------
@@ -9,7 +17,7 @@ Home
 .home {
   width: 100vw;
   height: 100vh;
-  background-image: url(../GoldGhostWebsite/img/desert.jpg);
+  background-image: url(../img/desert.jpg);
   -webkit-background-size: 100vw 100vh;
    -moz-background-size: 100vw 100vh;
      -o-background-size: 100vw 100vh;
