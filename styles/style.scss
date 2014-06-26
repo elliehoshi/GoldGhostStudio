@@ -17,12 +17,8 @@ Home
 .home {
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/desert.jpg);
-  -webkit-background-size: 100vw 100vh;
-   -moz-background-size: 100vw 100vh;
-     -o-background-size: 100vw 100vh;
-        background-size: 100vw 100vh;
-  margin-top: -2%;
+  background: url(../img/desert.jpg) no-repeat center center;
+  background-size: cover;
   cursor: default;
 }
 
@@ -30,4 +26,14 @@ Home
   padding-top: 15%;
   font-size: 6em;
   color: white;
+}
+
+.top-nav {
+  ul {
+    margin-top: 0px;
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
 }
