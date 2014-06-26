@@ -7,9 +7,6 @@ html, body {
 /*-----------------------------------------
 Nav
 -----------------------------------------*/
-.navbar-inverse {
-  background-color: rgba(18,4,23,1) !important;
-}
 
 /*-----------------------------------------
 Home
@@ -17,7 +14,8 @@ Home
 .home {
   width: 100vw;
   height: 100vh;
-  background: url(../img/desert.jpg) no-repeat center center;
+  background-color: rgba(18,4,23,1);
+  background: url('../img/desert.jpg') no-repeat center center;
   background-size: cover;
   cursor: default;
 }
