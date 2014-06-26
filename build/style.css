@@ -19,6 +19,7 @@ Home
 .home {
   width: 100vw;
   height: 100vh;
+  background-color: #120417;
   background-image: url(../img/desert.jpg);
   -webkit-background-size: 100vw 100vh;
   -moz-background-size: 100vw 100vh;
